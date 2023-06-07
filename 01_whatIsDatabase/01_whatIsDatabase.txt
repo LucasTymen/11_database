@@ -1,0 +1,17 @@
+What is a database and SQL
+
+Before we continue our Djourney into models, we need to get a sense of databases
+— because databases are where we will ultimately store our models’ information and provide the structure for our projects’ and apps’ data.
+https://www.sqlite.org/index.html
+
+
+As mentioned earlier in the introduction, SQLite comes pre-installed with Python.
+We’ve also configured this database to work on our site for your convenience as you progress through Django lessons and projects.
+https://en.wikipedia.org/wiki/SQL
+
+
+The “Lite” part of SQLite’s name implies that it’s a lightweight database perfect for small, personal applications.
+The other portion “SQL“, pronounced like the word “sequel”, refers to the Structured Query Language which is used to interact with the database.
+But, as part of Django’s “swiss army knife” approach, developers can still interact with their databases even without knowing SQL because of Django’s Object-Relational Mapping, or ORM.
+Simply speaking, we’re able to write Python code to interact with our SQLite database!
+https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
